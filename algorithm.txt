@@ -1,0 +1,21 @@
+Algorithm: Teacher enters marks
+
+1. Start
+2. Teacher logs into system
+3. System verifies teacher JWT token
+4. Teacher selects student
+5. Teacher selects course
+6. Teacher enters marks score
+7. System saves marks in database
+8. System confirms success
+9. End
+
+
+Algorithm: Student views marks
+
+1. Start
+2. Student logs into system
+3. System verifies student JWT token
+4. System retrieves marks from database
+5. System displays marks
+6. End
